@@ -58,14 +58,6 @@ for(let i = 0; i < codes.length; i++){
 }
 
 
-
-navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
-video.srcObject = stream;
-});
-
-document.body.appendChild(video);
-}
-
 const EntryBox = "input";
 const Button = "button";
 const UnorderedList = "ul";
